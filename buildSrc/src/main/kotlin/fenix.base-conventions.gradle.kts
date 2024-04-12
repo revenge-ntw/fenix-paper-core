@@ -37,7 +37,8 @@ spotless {
 }
 
 repositories {
-  maven("https://repo.revengenetwork.es/repository/libs/")
+  mavenCentral()
+  maven("https://repo.papermc.io/repository/maven-public/")
 }
 
 tasks {
