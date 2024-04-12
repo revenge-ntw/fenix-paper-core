@@ -37,11 +37,7 @@ spotless {
 }
 
 repositories {
-  mavenLocal()
-  maven("https://repo.revengenetwork.es/repository/libs/") {
-    name = "revengeRepository"
-    credentials(PasswordCredentials::class)
-  }
+  maven("https://repo.revengenetwork.es/repository/libs/")
 }
 
 tasks {

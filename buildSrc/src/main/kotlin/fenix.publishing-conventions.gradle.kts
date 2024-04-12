@@ -9,7 +9,6 @@ publishing {
       from(components["java"])
     }
   }
-
   /*repositories {
     maven {
       name = "revengeRepository"
