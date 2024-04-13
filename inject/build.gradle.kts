@@ -3,6 +3,6 @@ plugins {
 }
 
 dependencies {
-  api("com.google.inject:guice:7.0.0")
+  api("com.google.inject:guice:5.1.0")
   compileOnlyApi(libs.annotations)
 }
